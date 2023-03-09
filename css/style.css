@@ -1,0 +1,170 @@
+body{
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 16px;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+.h2{
+	text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.h1{
+	color: white;
+    font-size: 25px;
+    background-color: rgba(13, 24, 33, 0.84);
+    height: 38px;
+    margin-top: 30px;
+}
+
+
+
+
+/*Anitmating Number*/
+.h3{
+	text-align: center;
+    font-size: 40px;
+}
+#container{
+	background-color: #000;
+	margin: 0 auto;
+	width: 100%;
+}
+.profile{
+	padding: 15px;
+}
+.profile img{
+	display: block;
+    margin: 0 auto;
+}
+.profile-photo{
+	background-color: #D1C2BA;
+    width: 70%;
+    border-radius: 50% 0% 10% 0%;
+}
+.counting-container{
+	display: flex;
+}
+.counting-box{
+	border: 1px solid #D1C2BA;
+	text-align: center;
+	width: 25%;
+	margin: 10px;
+	padding: 4px;
+	flex: auto;
+}
+.counting-box img{
+	width: 40%;
+}
+.counting-box p{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #525252;
+}
+#encounter{
+	border-bottom: 2px solid #3185E8;
+}
+#battles{
+	border-bottom: 2px solid #D9884D;
+}
+#locations{
+	border-bottom: 2px solid #D95E4D;
+}
+@media (min-width: 600px) {
+	body{
+		padding-top: 5px;
+		background-image: url("../img/banner.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#container{
+		background-color: rgba(13, 24, 33, 0.84);
+		padding: 15px;
+		border-radius: 10px;
+		width: 360px;
+	}
+}
+/*time pulling*/
+.header { 
+	margin-top: 150px; 
+	text-align: center; 
+}
+      .header h1{
+          text-align: center;
+          font-size: 50px;
+          margin: 0;
+          font-family: 'Inter';
+} 
+.fgfgf{
+     margin-top: 45px;
+}
+
+
+
+.counter-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .counter-box {
+      width: 350px;
+    }
+    .counter-box h2 {
+      font-size: 70px;
+      text-align: center;
+      font-family: 'Inter';
+      margin: 0;
+    }
+ .counter-box p{
+    margin: 20px;
+    background-color: rgba(13, 24, 33, 0.84);
+    text-align: center;
+    height: 40px;
+    font-size: 22px;
+    }
+
+
+
+
+
+
+
+.grtd{
+	text-align: center;
+    margin: 50px;
+}
+ .incremental-counter .num {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #00aae6;
+  display: inline-block;
+  height: 64px;
+  line-height: 62px;
+  margin: 0 4.5px;
+  position: relative;
+  text-align: center;
+  top: -1px;
+  width: 50px;
+  font-size: 45px;
+  font-size: 3.72625em;
+  font-weight: 700;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.incremental-counter .num::before {
+  background: #00aae6;
+  content: "";
+  display: block;
+  height: 1px;
+  left: -1px;
+  margin: -0.5px 0 0;
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  width: auto;
+}
